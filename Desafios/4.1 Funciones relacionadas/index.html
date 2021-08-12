@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- font-awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12 card-table d-flex justify-content-center">
+                <img class="img-fluid" src="img/Budget-logos_white.png" alt="" width="250px">
+            </div>
+
+            <div class="col-md-12 card-st">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="col-md-12 card-base card-balance">
+                            <p class="card-title">Balance</p>
+                            $<input id="balance" class="card-amount" value="00.00" type="text" data-type="currency" disabled>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="col-md-12 card-base card-inco">
+                            <p class="card-title">Incoming</p>
+                            $<input id="incoming" class="card-amount" value="00.00" type="text" data-type="currency" disabled>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="col-md-12 card-base card-expe">
+                            <p class="card-title">Expense</p>
+                            $<input id="expense" class="card-amount" value="00.00" type="text" data-type="currency" disabled>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 card-table d-flex justify-content-center">
+
+                        <table id="tableItems" class="table">
+                            <thead>
+                            <tr>
+                                <th>Description</th>
+                                <th>Amount</th>
+                                <th></th>
+                              </tr>
+                            </thead>
+                        </table>
+
+                    </div>
+
+                      
+                    <div class="col-md-12 d-flex justify-content-center">
+
+                        <div class="center-menu btn-fix ">
+                            <label class="menu-button btn-success" for="menu-open" aria-hidden="true"><span class="fa fa-bars fa-2x"></span></label>
+                            <input class="menu-open" id="menu-open" type="checkbox" aria-hidden="true" />
+                            <nav class="menu" role="navigation">
+                              <a href="#" class="icon fa fa-plus-circle" onclick="setIncoming()"></a>
+                              <a href="#" class="icon fa fa-plus-circle margin-circle" onclick="addRow()" style="margin-bottom: 15%;"></a>
+                              <a href="#" class="icon fa fa-info-circle"></a>
+                            </nav>
+                          </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="js/jquery-1.0.js"></script>
+</body>
+
+</html>

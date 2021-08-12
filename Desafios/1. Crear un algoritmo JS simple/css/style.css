@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: cornsilk;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.content {
+  background-color: cornsilk;
+  color: black !important;
+  min-height: 120px;
+  min-width: 400px;
+  border-radius: 5px;
+  padding-top: 25px;
+  margin-top: 80px;
+}
+/*# sourceMappingURL=style.css.map */

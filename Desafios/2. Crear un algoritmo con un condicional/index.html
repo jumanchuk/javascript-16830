@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío: CREAR UN ALGORITMO JS SIMPLE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row d-flex content justify-content-center">
+                <h1 id="textFront"></h1>
+        </div>
+    </div>
+     <script>
+
+         //Vars
+         let name = prompt("Write your name:");
+         console.log("Setting value to variable name: "+name);
+
+         let birthYear = prompt("Write your year of birth:");
+         console.log("Setting value to variable birthYear: "+birthYear);
+
+         let age  = 2021 - parseInt(birthYear);
+         console.log("Calculating age: 2021-"+birthYear+"="+age);
+
+         //ouput String
+         output = "Hi, "+name+" your age is "+ age;
+         console.log("Generating OutputString...");
+         console.log(output);
+
+         //Alert Box
+         alert(output);
+
+         //Add ouput to h1 element
+         console.log("Setting output value to h1 element: "+output);
+         document.getElementById("textFront").innerHTML = output;
+
+     </script>
+</body>

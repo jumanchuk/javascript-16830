@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    
+    background: rgb(10,21,23);
+    background: -moz-linear-gradient(90deg, rgba(10,21,23,1) 0%, rgba(78,151,172,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(10,21,23,1) 0%, rgba(78,151,172,1) 100%);
+    background: linear-gradient(90deg, rgba(10,21,23,1) 0%, rgba(78,151,172,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a1517",endColorstr="#4e97ac",GradientType=1);
+}
+
+.card-st{
+
+    margin: 4% 4% 4% 4%;
+    padding: 25px;
+    background-color: white;
+    min-width: 300px;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+.card-base{
+    border-radius: 3px;
+    padding: 25px;
+    color: white;
+    font-size: xx-large;
+
+    & input{
+        box-sizing:border-box;
+        width: 60%;
+    }
+}
+
+.card-balance{
+    background-color: rgb(248, 167, 16);
+}
+
+.card-inco{
+    background-color: rgb(124, 20, 119);
+    margin-top: 15px;
+
+}
+
+.card-expe{
+    background-color: rgb(170, 79, 83);
+    margin-top: 15px;
+
+}
+
+.card-table{
+    margin-top: 15px;
+    min-height: 100px;
+}
+
+.btn-fix{
+    position: fixed;
+    margin: -10px;
+}
+
+.card-amount{
+    font-size: xx-large;
+    font-weight: bolder;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+/* Layout */
+.center-menu {
+    height: 50%;
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+
+  .menu a {
+    position: absolute;
+    left: calc(50% - 0px);
+    top: 25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s linear,
+      top 0.2s linear,
+      left 0.2s linear,
+      visibility 0.2s linear;
+      z-index: -1;
+  }
+  
+  .menu-open:checked~.menu a {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .menu-open:checked~.menu a:nth-child(1) {
+    left: calc(50% - 125px);
+    top: 55px;
+    color: rgb(82, 16, 78);
+  }
+  .menu-open:checked~.menu a:nth-child(2) {
+    left: calc(50% - 30px);
+    top: 110px;
+    color: rgb(170, 79, 83);
+    margin-bottom: 20% !important;
+  }
+  .menu-open:checked~.menu a:nth-child(3) {
+    left: calc(50% + 65px);
+    top: 55px;
+    color: rgb(248, 167, 16);
+  }
+  
+  /* Checkbox */
+  .menu-open {
+    display: none;
+  }
+  .menu-button {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    padding: 23px;
+    position: absolute;
+    left: calc(50% - 40px);
+    top: calc(20% + 8px);
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .menu-button:hover {
+    background: #52b469;
+  }
+  
+  /* Menu items */
+
+  a.icon {
+    display: inline-block;
+    cursor: pointer;
+    color: rgba(0,0,0,0);
+  }
+
+  a.icon:before {
+    position: absolute;
+    font-size: 60px;
+  }
+
+  a.icon:hover:before {
+    color: #ffffff;
+  }
+
+  .margin-circle{
+margin-bottom: 300px !important;
+
+  }
