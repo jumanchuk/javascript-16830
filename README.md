@@ -2,9 +2,9 @@
 
 `Camada 16830 - 2021`
 
-Esta es una coleccion GitHub’s de [`.CoderHouse`][coder] Desafios y Entregables Javascript.
+Esta es una coleccion GitHub’s de Desafios y Entregables Javascript [`CoderHouse`][coder].
 
-## Folder structure
+## Estructura del Proyecto
 
 Apoyo una colección de desafíos, organizados de la siguiente manera:
 
