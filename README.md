@@ -8,11 +8,11 @@ Esta es una coleccion GitHub’s de [`.CoderHouse`][coder] Desafios y Entregable
 
 Apoyo una colección de desafíos, organizados de la siguiente manera:
 
-[1. Crear un algoritmo JS simple][d1]
-[2. Crear un algoritmo con un condicional][d2]
-[3. Crear un algoritmo utilizando un ciclo][d3]
-[4. Simulador interactivo][d4]
-[4.1 Funciones relacionadas][d41]
+- [Crear un algoritmo JS simple][d1].
+- [Crear un algoritmo con un condicional][d2].
+- [Crear un algoritmo utilizando un ciclo][d3].
+- [Simulador interactivo][d4].
+- [Funciones relacionadas][d41].
 
 [coder]: https://www.coderhouse.com/
 [d1]: https://github.com/jumanchuk/javascript-16830/tree/main/Desafios/1.%20Crear%20un%20algoritmo%20JS%20simple
