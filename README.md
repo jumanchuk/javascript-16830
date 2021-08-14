@@ -19,4 +19,4 @@ Apoyo una colección de desafíos, organizados de la siguiente manera:
 [d2]:    http://www.jumanchuk.com.ar/2.-Crear-un-algoritmo-con-un-condicional/
 [d3]:    http://www.jumanchuk.com.ar/3.-Crear-un-algoritmo-utilizando-un-ciclo/
 [d4]:    http://www.jumanchuk.com.ar/4.-Simulador-interactivo/
-[d41]:   http://www.jumanchuk.com.ar/4.1-Funciones-relacionadas/
+[d41]:   http://www.jumanchuk.com.ar/4.1-Funciones-relacionadas/ ![alt text](http://www.jumanchuk.com.ar/4.-Simulador-interactivo/img/favicon-32x32.png)
