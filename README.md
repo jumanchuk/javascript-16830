@@ -15,7 +15,7 @@ Apoyo una colección de desafíos, organizados de la siguiente manera:
 - [Funciones relacionadas][d41].
 
 [coder]: https://www.coderhouse.com/
-[d1]: https://github.com/jumanchuk/javascript-16830/tree/main/1.%20Crear%20un%20algoritmo%20JS%20simple
+[d1]: http://www.jumanchuk.com.ar/1.-Crear-un-algoritmo-JS-simple/
 [d2]: https://github.com/jumanchuk/javascript-16830/tree/main/2.%20Crear%20un%20algoritmo%20con%20un%20condicional
 [d3]: https://github.com/jumanchuk/javascript-16830/tree/main/3.%20Crear%20un%20algoritmo%20utilizando%20un%20ciclo
 [d4]: https://github.com/jumanchuk/javascript-16830/tree/main/4.%20Simulador%20interactivo
